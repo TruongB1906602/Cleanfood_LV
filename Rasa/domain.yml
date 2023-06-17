@@ -1,0 +1,97 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - cook
+  - name
+  - cook_1
+  - cook_CPT001
+  - payment
+  - mango
+  - mango_different
+
+
+actions:
+  - action_default_fallback
+
+responses:
+  utter_greet:
+  - text: "Xin chào! Bạn cần shop tư vấn gì ạ?"
+    image: "https://png.pngtree.com/png-clipart/20210128/ourlarge/pngtree-hello-emoji-pack-png-image_2835003.jpg"
+  - text: "Xin chào! \n Mình là nhân viên tư vấn, rất hân hạnh được trò chuyện với bạn!"
+    image: "https://png.pngtree.com/png-clipart/20210128/ourlarge/pngtree-hello-emoji-pack-png-image_2835003.jpg"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+ 
+  - text: "Cảm ơn đã quan tâm đến sản phẩm!"
+  - text: "Tạm biệt! \nHẹn gặp lại!"
+
+
+  utter_payment:
+  - text: "Quý khách có thể sử dụng thanh toán Vnpay hoặc là thanh toán khi nhận hàng đều được ạ!"
+  
+  
+  utter_iamabot:
+  - text: "Tôi là nhân viên tư vấn! Bạn có câu hỏi nào không!"
+
+  utter_name:
+  - text: "Tôi tên là Tư vấn viên."
+
+  
+  utter_mango:
+  - text: "Dạ hiện tại bên shop có bán xoài cát hòa lộc với giá 53.999đ ạ"
+
+  utter_mango_different:
+  - text: "Xoài cát hoà lộc có hương vị thơm ngon đặc trưng hơn so với xoài thường. Nó cũng có một số đặc điểm khác nhau trong hình dáng, màu sắc và cấu trúc trái cây.Xoài cát được xuất khẩu nhiều nước tren thế giới"
+
+  
+  utter_cook:
+  - text: "Bạn có thể chế biến nhiều món ngon như:
+      \n 1.Thịt ba rọi hun khói nướng mật ong
+      \n 2.Lẩu thịt ba rọi 
+      \n 3.Thịt ba rọi kho tộ 
+      \n 4.Bánh mì thịt heo"
+     
+  utter_cook_CPT001:
+  - text: "Dạ hiện nay Ba rọi tươi ít béo 300gr đang sale từ 66.000 VNĐ xuống còn 55.000VNĐ"
+  utter_cook_1:
+  - text: "Cách chế biến món thịt ba rọi nướng thịt mật ong: Món thịt ba rọi nướng mật ong \n Nguyên liệu:
+        500g thịt ba rọi
+        \n3 muỗng canh mật ong
+        \n3 muỗng canh nước tương
+        \n1 muỗng canh dầu hào
+        \n2 muỗng canh rượu vang đỏ
+        \n1 muỗng canh tỏi băm
+        \n1 muỗng canh hành tím băm
+        \n1 muỗng canh bột ngọt
+        \nTiêu, muối
+        \nHướng dẫn:
+        \n1.Rửa sạch thịt ba rọi, cắt khối vuông khoảng 2-3 cm. Cho thịt vào tô.
+        \n2.Trộn mật ong, nước tương, dầu hào, rượu vang, tỏi băm, hành tím băm, bột ngọt, tiêu và muối với nhau, đánh đều.
+        \n3.Cho hỗn hợp nước sốt vào tô thịt, trộn đều và để thấm ít nhất 30 phút.
+        \n4.Nướng thịt ba rọi trên lò nướng hoặc trên chảo nướng, ở nhiệt độ cao khoảng 15-20 phút hoặc đến khi chín và vàng đều cả hai mặt.
+          \n5.Cho thịt ra đĩa, dùng kèm với rau sống, cơm trắng hoặc bánh mì.
+          \n6.Chúc bạn thành công và thưởng thức món ăn ngon với thịt ba rọi!
+        "
+    image: "https://cdn.tgdd.vn/Files/2017/03/23/964110/cach-lam-thit-nuong-mat-ong-thom-ngon-4_760x450.jpg"
+   
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

@@ -1,0 +1,143 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - chào
+    - xin chào
+    - chào bot
+    - có ai ở đó không
+    - tôi cần hỗ trợ
+    - Chào bạn
+    - Chào anh
+    - Chào chị
+    - Chào buổi sáng
+    - Có đó không
+    - Rãnh không
+    - Ê
+    - Hú
+    - chào em
+    - em ơi, cho anh hỏi
+    - bot ơi
+    - cho mình hỏi chút
+
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - g9
+    - good night
+    - bye bye
+    - tạm biệt
+    - Hẹn gặp lại
+    - Ngủ ngon
+    - Chúc ngủ ngon
+    - Nói chuyện sau nhé
+    - Tôi sẽ liên hệ sau
+    - tạm biệt em
+    - tạm biệt bot nhá
+    - Biến
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: name
+  examples: |
+    - Bạn tên gì?
+    - Tên gì
+      
+- intent: cook
+  examples: |
+    - Cách nấu món ngon với thịt ba rọi
+    - Làm món j ngon với thịt ba rọi
+
+- intent: cook_1
+  examples: |
+    - Cách làm món thịt ba rọi nướng mật ong
+    - Cho mình hỏi cách làm món thịt ba rọi nướng mật ong
+
+- intent: cook_CPT001
+  examples: |
+    - Giá thịt ba rọi
+    - Giá ba rọi sao shop
+
+- intent: payment
+  examples: |
+    - Thanh toán sao z
+    - Có chuyển khoản không shop
+    - Tiền mặt hay chuyển khoản z
+
+
+- intent: mango
+  examples: |
+    - Có bán xoài cát không shop
+    - Xoài cát hòa lộc có không shop
+
+- intent: mango_different
+  examples: |
+    - khác j với xoài thường shop
+    - Có ngon hơn xoài bình thường ko z
+
+
+    
+   

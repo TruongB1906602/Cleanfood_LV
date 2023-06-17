@@ -1,0 +1,63 @@
+version: "3.1"
+
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- rule: Chào hỏi
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- rule: Tạm biệt
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Hỏi tên
+  steps:
+  - intent: name
+  - action: utter_name
+
+- rule: cook_baroi
+  steps:
+  - intent: cook_1
+  - action: utter_cook_1
+
+- rule: cook
+  steps:
+  - intent: cook
+  - action: utter_cook
+
+- rule: cook_CPT001
+  steps:
+  - intent: cook_CPT001
+  - action: utter_cook_CPT001
+
+
+- rule: payment
+  steps:
+  - intent: payment
+  - action: utter_payment
+
+
+- rule: mango
+  steps:
+  - intent: mango
+  - action: utter_mango
+
+- rule: mango1
+  steps:
+  - intent: mango_different
+  - action: utter_mango_different  
+
+ 
+

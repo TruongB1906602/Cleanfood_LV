@@ -1,0 +1,55 @@
+.sun-editor {
+    background-color: #2d2d2d;
+    border-radius: 5px;
+    border: none;
+    color: white;
+  }
+  
+  .sun-editor * {
+    box-sizing: border-box;
+  }
+  
+  .sun-editor .sun-editor-editable {
+    height: 200px;
+    padding: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .sun-editor-toolbar {
+    background-color: #1a1a1a;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  
+  .sun-editor-toolbar .btn-group .dropdown-menu {
+    background-color: #2d2d2d;
+  }
+  
+  .sun-editor-toolbar .dropdown-menu .dropdown-item {
+    color: white;
+  }
+  
+  .sun-editor-toolbar .dropdown-menu .dropdown-item:hover {
+    background-color: #1a1a1a;
+  }
+  
+  .sun-editor-toolbar .dropdown-menu .dropdown-item.active,
+  .sun-editor-toolbar .dropdown-menu .dropdown-item:active {
+    background-color: #1a1a1a;
+    border-color: #1a1a1a;
+  }
+  
+  .sun-editor-toolbar button,
+  .sun-editor-toolbar button:hover,
+  .sun-editor-toolbar button:focus {
+    background-color: transparent;
+    border: none;
+    color: white;
+  }
+  
+  .sun-editor-toolbar button:hover,
+  .sun-editor-toolbar button:focus {
+    text-decoration: underline;
+  }
+  
